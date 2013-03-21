@@ -10,7 +10,7 @@
       <description>
       Konstruktor w klasach implementujących WithoutConstructor jest niedozwolony.
       </description>
-        <priority>1</priority>
+        <priority>3</priority>
 
     </rule>
     
