@@ -8,6 +8,11 @@ import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration;
 import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceType;
 import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
 
+/**
+ * 
+ * @author Szymon Kubicz
+ *
+ */
 public class ConstructorRule extends AbstractJavaRule {
 	public Object visit(ASTClassOrInterfaceDeclaration type, Object ruleCtx) {
 		super.visit(type, ruleCtx);
